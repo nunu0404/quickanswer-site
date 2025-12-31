@@ -1,3 +1,1 @@
-# Replace with your own ads.txt entry when using AdSense.
-# Example:
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-2322159093726380, DIRECT, f08c47fec0942fa0
