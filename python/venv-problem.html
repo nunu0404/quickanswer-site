@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>가상환경이 활성화되지 않을 때 해결 방법 | QuickAnswer</title>
+  <meta name="description" content="활성화 스크립트를 잘못 실행하거나 터미널 설정이 꼬인 경우가 많습니다. 쉘 종류를 확인하고 올바른 명령을 사용하세요." />
+  <link rel="canonical" href="https://quickanswer.help/python/venv-problem.html" />
+  <meta property="og:title" content="가상환경이 활성화되지 않을 때 해결 방법" />
+  <meta property="og:description" content="활성화 스크립트를 잘못 실행하거나 터미널 설정이 꼬인 경우가 많습니다. 쉘 종류를 확인하고 올바른 명령을 사용하세요." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://quickanswer.help/python/venv-problem.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="stylesheet" href="/style.css" />
+  
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "가상환경이 활성화되지 않을 때 해결 방법", "description": "활성화 스크립트를 잘못 실행하거나 터미널 설정이 꼬인 경우가 많습니다. 쉘 종류를 확인하고 올바른 명령을 사용하세요.", "datePublished": "2025-01-07", "dateModified": "2025-01-07"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "가상환경이 활성화되지 않을 때 해결 방법", "acceptedAnswer": {"@type": "Answer", "text": "활성화 스크립트를 잘못 실행하거나 터미널 설정이 꼬인 경우가 많습니다. 쉘 종류를 확인하고 올바른 명령을 사용하세요."}}, {"@type": "Question", "name": "가상환경이 활성화되는데도 pip가 시스템을 사용해요.", "acceptedAnswer": {"@type": "Answer", "text": "터미널을 새로 열고 다시 활성화하는 것이 도움이 됩니다."}}, {"@type": "Question", "name": "conda 환경과 충돌하나요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 동시에 활성화하면 충돌이 날 수 있습니다."}}, {"@type": "Question", "name": "가상환경을 삭제해도 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 필요 없는 환경은 삭제 후 재생성하는 편이 빠릅니다."}}]}</script>
+</head>
+<body>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="/">
+        <span class="brand-mark">Q</span>
+        <span>QuickAnswer</span>
+      </a>
+      <nav class="nav"><a href="/">홈</a><a href="/privacy.html">개인정보처리방침</a><a href="/contact.html">문의</a></nav>
+    </header>
+    
+    <main class="content fade-in">
+      <section class="hero">
+        <span class="pill">Python</span>
+        <h1>가상환경이 활성화되지 않을 때 해결 방법</h1>
+        <p class="summary">활성화 스크립트를 잘못 실행하거나 터미널 설정이 꼬인 경우가 많습니다. 쉘 종류를 확인하고 올바른 명령을 사용하세요.</p>
+        <div class="tag-row"><span class="tag">python</span><span class="tag">venv</span><span class="tag">가상환경</span></div>
+      </section>
+      <article class="prose">
+        <p>가상환경이 활성화되지 않을 때는 터미널 쉘 종류와 활성화 명령이 맞는지부터 확인해야 합니다. zsh과 bash는 활성화 스크립트 경로가 다를 수 있습니다.</p>
+<p>또한 가상환경을 만든 위치를 잘못 기억해 다른 폴더에서 실행하는 경우도 흔합니다. 현재 작업 폴더가 올바른지 확인하세요.</p>
+<p>Windows에서는 PowerShell 실행 정책 때문에 활성화가 차단되는 경우가 있습니다.</p>
+<p>아래 체크리스트를 순서대로 점검해보세요.</p>
+<ul><li>source .venv/bin/activate 실행 여부 확인</li><li>가상환경 폴더 위치가 맞는지 확인</li><li>터미널 쉘(zsh/bash) 확인</li><li>Windows는 Set-ExecutionPolicy 확인</li></ul>
+        <div class="ad-slot">광고 영역</div>
+        <section class="faq"><h2>자주 묻는 질문</h2><dl><div class="faq-item"><dt>Q. 가상환경이 활성화되는데도 pip가 시스템을 사용해요.</dt><dd>터미널을 새로 열고 다시 활성화하는 것이 도움이 됩니다.</dd></div><div class="faq-item"><dt>Q. conda 환경과 충돌하나요?</dt><dd>네, 동시에 활성화하면 충돌이 날 수 있습니다.</dd></div><div class="faq-item"><dt>Q. 가상환경을 삭제해도 되나요?</dt><dd>네, 필요 없는 환경은 삭제 후 재생성하는 편이 빠릅니다.</dd></div></dl></section>
+      </article>
+    </main>
+    <footer class="site-footer">© QuickAnswer</footer>
+  </div>
+</body>
+</html>
