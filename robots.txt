@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://quickanswer.help/sitemap.xml
+Sitemap: https://quicklyanswer.com/sitemap.xml
